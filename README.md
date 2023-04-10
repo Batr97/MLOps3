@@ -1,6 +1,6 @@
 # Batyrkhan_Gainitdinov
 
-### Raised airflow locally using docker compose (taken from the example https://github.com/made-ml-in-prod-2021/airflow-examples /) 
+Raised airflow locally using docker compose (taken from the example https://github.com/made-ml-in-prod-2021/airflow-examples /) 
 
 ### Implemented a dag that generates data for training the model, the DAG is called data_generation.py , some data is taken from my_config.yaml, which is located in the project/images/airflow-docker directory. It is important for you to simulate situations of constantly incoming data (5 points) data is recorded in project/data/raw/{{ds }}/data.csv and /data/raw/{{ds }}/target.csv
 
